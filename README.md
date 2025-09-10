@@ -1,16 +1,41 @@
-# satwika_flutter_app
+# Expense Splitter App
 
-A new Flutter project.
+A simple **Flutter app** to split expenses among a group of people, calculate who owes whom, and minimize payments. Perfect for friends, roommates, or small teams.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Add people and the amount they spent
+- Automatically calculate equal share per person
+- Determine who owes whom and how much
+- Reset all entries easily
+- Results are cached for faster calculations
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+![Splash Screen](screenshots/splash.png)  
+![Main Screen](screenshots/main.png)  
+
+*(You can replace these paths with actual screenshots of your app)*
+
+---
+
+## Technologies Used
+
+- **Flutter & Dart** for mobile app development
+- **Stateful and Stateless Widgets** for UI
+- **ListView & TextFields** for input and display
+- **SnackBar** for notifications
+- **Caching** using a simple in-memory map
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/username/Expense-Splitter-App.git
